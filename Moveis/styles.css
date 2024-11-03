@@ -241,3 +241,67 @@ bottom: 30px;
 right: 30px;
 z-index: 9999;
 }
+
+@media (max-width: 1050px) {
+    /*Inicio Main*/
+
+    .main h1{
+        font-size: 45px;
+    }
+
+    .main p{
+        font-size: 18px;
+    }
+
+    .main{
+        background-size: cover;
+    }
+    /*Fim main*/
+
+    /*Inicio Sobre*/
+
+    .about {
+        flex-direction:column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .about div{
+        max-width: 80%;
+    }
+
+    .about div h2{
+        font-size: 45px;
+    }
+
+    .about img{
+        width: 80%;
+        margin-top: 30px;
+    }
+    /*final sobre*/
+
+    /*Inicio projetos*/
+
+    .projects img{
+        width: 27.5%;
+    }
+    /*final projetos*/
+
+    /*Inicio footer*/
+
+    .footer{
+        flex-direction: column; 
+    }
+
+    .footer h3{
+        font-size: 224px;
+        margin-bottom: 8px;
+    }
+
+    .footer p{
+        margin: 0;
+    }
+
+}
